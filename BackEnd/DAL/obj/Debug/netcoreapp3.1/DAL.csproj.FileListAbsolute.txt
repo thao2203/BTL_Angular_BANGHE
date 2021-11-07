@@ -1,0 +1,12 @@
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\BTL_ANGULAR\BackEnd\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\BTL_ANGULAR\BackEnd\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\BTL_ANGULAR\BackEnd\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\BTL_ANGULAR\BackEnd\DAL\bin\Debug\netcoreapp3.1\Model.dll
+D:\BTL_ANGULAR\BackEnd\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\BTL_ANGULAR\BackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
