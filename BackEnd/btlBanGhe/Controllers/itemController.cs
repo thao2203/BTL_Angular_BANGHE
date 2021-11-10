@@ -24,5 +24,13 @@ namespace btlBanGhe.Controllers
         {
             return _db.ngauNhien();
         }
+
+        [HttpGet]
+        [Route("get-detail/{id}")]
+
+        public object getDetail(int id)
+        {
+            return _db.chiTiet(id);
+        }
     }
 }

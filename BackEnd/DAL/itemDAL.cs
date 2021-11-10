@@ -24,5 +24,15 @@ namespace DAL
             return Tuple.Create(db1.ConvertTo<items>().ToList(), db2.ConvertTo<items>().ToList());
             
         }
+
+        public object chiTiet(int id)
+        {
+            string Error = "";
+            var db1 = _dbHelper.ExecuteSProcedureReturnDataTable(out Error, "sp_item_get_by_id", "@ITEM_ID", id);
+            if (!string.IsNullOrEmpty(Error))
+                return Error;
+            return db1.ConvertTo<items>().FirstOrDefault();
+
+        }
     }
 }
