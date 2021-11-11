@@ -32,5 +32,21 @@ namespace btlBanGhe.Controllers
         {
             return _db.chiTiet(id);
         }
+
+        [HttpGet]
+        [Route("get-category/{id}")]
+
+        public object getCategory(int id)
+        {
+            return _db.DSdanhMuc(id);
+        }
+
+        [HttpGet]
+        [Route("get-allSupplier")]
+
+        public object getAllSupplier()
+        {
+            return _db.TatCaNCC();
+        }
     }
 }

@@ -34,5 +34,25 @@ namespace DAL
             return db1.ConvertTo<items>().FirstOrDefault();
 
         }
+
+        public object DSdanhMuc(int id)
+        {
+            string Error = "";
+            var db1 = _dbHelper.ExecuteSProcedureReturnDataTable(out Error, "sp_item_get_by_category", "@ITEM_GROUP_ID", id);
+            if (!string.IsNullOrEmpty(Error))
+                return Error;
+            return db1.ConvertTo<items>().ToList();
+
+        }
+
+        public object TatCaNCC()
+        {
+            string Error = "";
+            var db1 = _dbHelper.ExecuteSProcedureReturnDataTable(out Error, "supplier_all");
+            if (!string.IsNullOrEmpty(Error))
+                return Error;
+          return db1.ConvertTo<supplier>().ToList();
+
+        }
     }
 }
