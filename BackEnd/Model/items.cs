@@ -12,6 +12,9 @@ namespace Model
         public int ITEM_GROUP_ID { get; set; }
         public int SUPPLIER_ID { get; set; }
 
+        public string ITEM_GROUP_NAME { get; set; }
+        public string SUPPLIER_NAME { get; set; }
+
         public string ITEM_NAME { get; set; }
         public string ITEM_IMAGE { get; set; }
 

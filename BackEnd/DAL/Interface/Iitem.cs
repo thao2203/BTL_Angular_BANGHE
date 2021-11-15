@@ -10,5 +10,6 @@ namespace DAL.Interface
         public object chiTiet(int id);
         public object DSdanhMuc(int id);
         public object TatCaNCC();
+        public object GetAllItems();
     }
 }

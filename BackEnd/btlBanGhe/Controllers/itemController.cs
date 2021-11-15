@@ -48,5 +48,15 @@ namespace btlBanGhe.Controllers
         {
             return _db.TatCaNCC();
         }
+
+
+
+        [HttpGet]
+        [Route("get-allItem")]
+
+        public object getAllItems()
+        {
+            return _db.GetAllItems();
+        }
     }
 }

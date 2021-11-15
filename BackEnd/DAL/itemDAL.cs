@@ -44,6 +44,7 @@ namespace DAL
             return db1.ConvertTo<items>().ToList();
 
         }
+        
 
         public object TatCaNCC()
         {
@@ -53,6 +54,15 @@ namespace DAL
                 return Error;
           return db1.ConvertTo<supplier>().ToList();
 
+        }
+
+        public object GetAllItems()
+        {
+            string Error = "";
+            var db1 = _dbHelper.ExecuteSProcedureReturnDataTable(out Error, "sp_item_all");
+            if (!string.IsNullOrEmpty(Error))
+                return Error;
+            return db1.ConvertTo<items>().ToList();
         }
     }
 }
